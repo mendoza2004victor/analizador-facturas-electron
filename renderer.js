@@ -1,3 +1,4 @@
+// lógica para cálculo de facturas
 async function seleccionarCarpeta() {
   try {
     const ruta = await window.api.seleccionarCarpeta();
